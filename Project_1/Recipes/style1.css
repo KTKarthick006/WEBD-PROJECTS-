@@ -16,3 +16,9 @@
     font-weight: 700;
     font-style: italic;
 }
+.heading1
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: inherit ;
+    font-weight: bolder;
+}

@@ -1,0 +1,22 @@
+*{
+    background-color: aqua;
+}
+.head
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: inherit ;
+    font-weight: bolder;
+}
+.Ingredients
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    font-weight: 200;
+}
+.Directions
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: 700;
+    font-style: italic;
+}

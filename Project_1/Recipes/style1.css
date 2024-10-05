@@ -1,24 +1,85 @@
-*
-{
-    background-color: aquamarine;
+/* Global styling for body */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f4f6;
+    color: #333;
+    line-height: 1.6;
 }
 
-.Ingredients
-{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: medium;
-    font-weight: 200;
+/* Styling for headings */
+h3, h4 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
 }
-.Directions
-{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: medium;
-    font-weight: 700;
+
+h2 {
+    font-size: 2.5rem;
+    color: #5a4e4d;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #494949;
     font-style: italic;
 }
-.heading1
-{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-style: inherit ;
-    font-weight: bolder;
+
+h4 {
+    font-size: 1.2rem;
+    color: #494949;
+    text-align: left;
+    margin-top: 30px;
 }
+
+
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 90%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.Ingredients, .Directions {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li::before {
+    content: "=>";
+    color: #5a4e4d;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: 1em;
+}
+
+ol {
+    padding-left: 20px;
+}
+
+ol li {
+    margin-bottom: 10px;
+}
+
+
+.Ingredients ul li, .Directions ol li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
